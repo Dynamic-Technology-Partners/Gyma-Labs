@@ -1,5 +1,22 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Gyma-Labs-Sandbox",
+            "type": "al",
+            "request": "launch",
+            "tenant": "46f1750c-04b1-45c9-a3c2-be20d1ec3185",
+            "environmentType": "Sandbox",
+            "environmentName": "PaulSandbox",
+            "startupObjectId": 22,
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10
+        }
+
     ]
 }
