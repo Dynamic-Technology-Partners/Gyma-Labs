@@ -15,5 +15,10 @@ tableextension 95002 "Sales Header-GL" extends "Sales Header"
             Caption = 'Customer Item Reference No.';
             DataClassification = ToBeClassified;
         }
+        field(95002; "Order Type"; Enum "Sales Order Entity Buffer Status")
+        {
+            Caption = 'Order Type';
+            DataClassification = ToBeClassified;
+        }
     }
 }
