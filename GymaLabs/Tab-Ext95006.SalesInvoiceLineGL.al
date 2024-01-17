@@ -1,7 +1,7 @@
 /// <summary>
-/// TableExtension Sales Line-GL (ID 95004) extends Record Sales Line.
+/// TableExtension Sales Invoice Line-GL (ID 95006) extends Record Sales Invoice Line.
 /// </summary>
-tableextension 95004 "Sales Line-GL" extends "Sales Line"
+tableextension 95006 "Sales Invoice Line-GL" extends "Sales Invoice Line"
 {
     fields
     {
