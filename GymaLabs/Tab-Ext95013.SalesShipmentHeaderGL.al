@@ -1,7 +1,7 @@
 /// <summary>
-/// TableExtension Sales Header-GL (ID 95002) extends Record Sales Header.
+/// TableExtension Sales Shipment Header-GL (ID 95013) extends Record Sales Shipment Header.
 /// </summary>
-tableextension 95002 "Sales Header-GL" extends "Sales Header"
+tableextension 95013 "Sales Shipment Header-GL" extends "Sales Shipment Header"
 {
     fields
     {

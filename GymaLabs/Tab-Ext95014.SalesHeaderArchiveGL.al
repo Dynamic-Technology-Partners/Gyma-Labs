@@ -1,7 +1,7 @@
 /// <summary>
-/// TableExtension Sales Header-GL (ID 95002) extends Record Sales Header.
+/// TableExtension Sales Header Archive-GL (ID 95014) extends Record Sales Header Archive.
 /// </summary>
-tableextension 95002 "Sales Header-GL" extends "Sales Header"
+tableextension 95014 "Sales Header Archive-GL" extends "Sales Header Archive"
 {
     fields
     {
