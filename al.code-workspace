@@ -7,5 +7,9 @@
       "path": ".AL-Go"
     }
   ],
-  "settings": {}
+  "settings": {
+    "cSpell.words": [
+      "Gyma"
+    ]
+  }
 }
