@@ -20,24 +20,24 @@ tableextension 95000 "Item-GL" extends Item
             Caption = 'Refrigerated';
             DataClassification = ToBeClassified;
         }
-        field(95003; CAS; Text[40])
+        field(95003; CAS; Text[30])
         {
             Caption = 'CAS';
             DataClassification = ToBeClassified;
         }
-        field(95004; CSA; Text[40])
+        field(95004; CSA; Text[30])
         {
             Caption = 'CSA';
             DataClassification = ToBeClassified;
         }
-        field(95005; "DEA Register No."; Text[40])
+        field(95005; "DEA Register No."; Text[30])
         {
             Caption = 'DEA Register No.';
             DataClassification = ToBeClassified;
         }
-        field(95006; "FDA P.C."; Text[40])
+        field(95006; "FDA Product Code"; Text[30])
         {
-            Caption = 'FDA P.C.';
+            Caption = 'FDA Product Code';
             DataClassification = ToBeClassified;
         }
         field(95007; Hazmat; Text[200])
