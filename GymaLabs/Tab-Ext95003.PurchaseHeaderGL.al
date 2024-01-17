@@ -19,26 +19,31 @@ tableextension 95003 "Purchase Header-GL" extends "Purchase Header"
         {
             Caption = 'CIF';
             DataClassification = ToBeClassified;
+            TableRelation = "Cost Insurance Freight-GL".Code;
         }
         field(95003; Packing; Code[10])
         {
             Caption = 'Packing';
             DataClassification = ToBeClassified;
+            TableRelation = "Packing-GL".Code;
         }
         field(95004; "Labels"; Code[10])
         {
             Caption = 'Labels';
             DataClassification = ToBeClassified;
+            TableRelation = "Labels-GL".Code;
         }
         field(95005; Marking; Code[10])
         {
             Caption = 'Marking';
             DataClassification = ToBeClassified;
+            TableRelation = "Marking-GL".Code;
         }
         field(95006; Documents; Code[10])
         {
             Caption = 'Documents';
             DataClassification = ToBeClassified;
+            TableRelation = "Documents-GL".Code;
         }
     }
 }
