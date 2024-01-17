@@ -47,7 +47,7 @@ table 95002 "Labels-GL"
     }
     keys
     {
-        key(PK; "")
+        key(PK; "Code")
         {
             Clustered = true;
         }
