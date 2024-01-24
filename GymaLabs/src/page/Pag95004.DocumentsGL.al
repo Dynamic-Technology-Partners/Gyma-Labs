@@ -3,9 +3,11 @@
 /// </summary>
 page 95004 "Documents-GL"
 {
-    Caption = 'Documents-GL';
+    Caption = 'Documents';
     PageType = List;
     SourceTable = "Documents-GL";
+    ApplicationArea = All;
+    UsageCategory = Lists;
 
     layout
     {

@@ -1,11 +1,13 @@
 /// <summary>
-/// Page Marking-GL (ID 95003).
+/// Page Packing-GL (ID 95001).
 /// </summary>
-page 95003 "Marking-GL"
+page 95001 "Packing-GL"
 {
-    Caption = 'Marking-GL';
+    Caption = 'Packing';
     PageType = List;
-    SourceTable = "Marking-GL";
+    SourceTable = "Packing-GL";
+    ApplicationArea = All;
+    UsageCategory = Lists;
 
     layout
     {

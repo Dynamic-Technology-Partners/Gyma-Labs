@@ -1,11 +1,13 @@
 /// <summary>
-/// Page Cost Insurance Freight-GL (ID 95000).
+/// Page Labels-GL (ID 95002).
 /// </summary>
-page 95000 "Cost Insurance Freight-GL"
+page 95002 "Labels-GL"
 {
-    Caption = 'Cost Insurance Freight-GL';
+    Caption = 'Labels';
     PageType = List;
-    SourceTable = "Cost Insurance Freight-GL";
+    SourceTable = "Labels-GL";
+    ApplicationArea = All;
+    UsageCategory = Lists;
 
     layout
     {
