@@ -15,7 +15,6 @@ pageextension 95001 "Ship-to Address-GL" extends "Ship-to Address"
             {
                 ApplicationArea = All;
             }
-
         }
     }
 }

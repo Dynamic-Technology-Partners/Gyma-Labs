@@ -5,6 +5,7 @@ table 95000 "Cost Insurance Freight-GL"
 {
     Caption = 'Cost Insurance Freight-GL';
     DataClassification = ToBeClassified;
+    DrillDownPageId = "Cost Insurance Freight-GL";
 
     fields
     {

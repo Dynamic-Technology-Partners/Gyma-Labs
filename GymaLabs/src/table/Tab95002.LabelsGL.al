@@ -5,6 +5,7 @@ table 95002 "Labels-GL"
 {
     Caption = 'Labels-GL';
     DataClassification = ToBeClassified;
+    DrillDownPageId = "Labels-GL";
 
     fields
     {

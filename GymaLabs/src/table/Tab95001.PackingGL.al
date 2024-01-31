@@ -5,6 +5,7 @@ table 95001 "Packing-GL"
 {
     Caption = 'Packing-GL';
     DataClassification = ToBeClassified;
+    DrillDownPageId = "Packing-GL";
 
     fields
     {

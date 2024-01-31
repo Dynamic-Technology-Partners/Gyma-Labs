@@ -5,6 +5,7 @@ table 95004 "Documents-GL"
 {
     Caption = 'Documents-GL';
     DataClassification = ToBeClassified;
+    DrillDownPageId = "Documents-GL";
 
     fields
     {
