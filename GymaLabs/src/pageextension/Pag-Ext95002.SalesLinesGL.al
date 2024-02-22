@@ -18,7 +18,18 @@ pageextension 95002 "Sales Lines-GL" extends "Sales Lines"
             field("Commission %"; rec."Commission %")
             {
                 ApplicationArea = All;
+                Visible = SalesHeader."Order Type" = SalesHeader."Order Type"::Commission;
             }
         }
     }
+
+    var
+        SalesHeader: Record "Sales Header";
+
+    trigger OnAfterGetRecord()
+    begin
+        if SalesHeader."No." <> Rec."Document No." then begin
+            SalesHeader.Get(Rec."Document No.");
+        end;
+    end;
 }

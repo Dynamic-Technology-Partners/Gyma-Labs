@@ -6,8 +6,6 @@
             "type": "al",
             "request": "launch",
             "environmentType": "Sandbox",
-            /*"tenant": "46f1750c-04b1-45c9-a3c2-be20d1ec3185",*/
-            /*"environmentName": "PaulSandbox",*/
             "tenant": "0381904e-e7b1-4ecc-89f1-4f5f89246c25",
             "environmentName": "TestEnvironment",
             "startupObjectId": 22,
