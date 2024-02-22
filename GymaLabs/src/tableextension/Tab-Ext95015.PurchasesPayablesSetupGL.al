@@ -1,5 +1,5 @@
 /// <summary>
-/// TableExtension Purchases & Payables Setup-GL (ID 95015) extends Record Purchases & Payables Setup.
+/// TableExtension Purchases Payables Setup-GL (ID 95015) extends Record Purchases Payables Setup.
 /// </summary>
 tableextension 95015 "Purchases & Payables Setup-GL" extends "Purchases & Payables Setup"
 {
