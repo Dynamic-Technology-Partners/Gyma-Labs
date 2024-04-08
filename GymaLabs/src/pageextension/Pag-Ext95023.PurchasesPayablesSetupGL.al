@@ -7,7 +7,7 @@ pageextension 95023 "Purchases & Payables Setup-GL" extends "Purchases & Payable
     {
         addlast(General)
         {
-            field("DEA License No."; Rec."P.L. Item Cost Default to Zero")
+            field("Purchase Line Item Cost Default to Zero"; Rec."P.L. Item Cost Default to Zero")
             {
                 ApplicationArea = All;
             }
