@@ -12,7 +12,7 @@ tableextension 95006 "Sales Invoice Line-GL" extends "Sales Invoice Line"
         }
         field(95001; "Customer Item Ref. No."; Text[50])
         {
-            Caption = 'Customer Item Ref. No.';
+            Caption = 'Customer Item Reference No.';
             DataClassification = ToBeClassified;
         }
         field(95002; "Commission %"; Decimal)

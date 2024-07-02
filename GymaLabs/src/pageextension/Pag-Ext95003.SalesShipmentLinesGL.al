@@ -11,9 +11,10 @@ pageextension 95003 "Sales Shipment Lines-GL" extends "Sales Shipment Lines"
             {
                 ApplicationArea = All;
             }
-            field("Customer Item Ref. No."; rec."Customer Item Ref. No.")
+            field("Customer Item Refence No."; rec."Customer Item Ref. No.")
             {
                 ApplicationArea = All;
+                Visible = false;
             }
             field("Commission %"; rec."Commission %")
             {

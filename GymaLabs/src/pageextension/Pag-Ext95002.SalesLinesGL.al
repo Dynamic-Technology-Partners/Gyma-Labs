@@ -11,9 +11,10 @@ pageextension 95002 "Sales Lines-GL" extends "Sales Lines"
             {
                 ApplicationArea = All;
             }
-            field("Customer Item Ref. No."; rec."Customer Item Ref. No.")
+            field("Customer Item Reference No."; rec."Customer Item Ref. No.")
             {
                 ApplicationArea = All;
+                Visible = false;
             }
             field("Commission %"; rec."Commission %")
             {

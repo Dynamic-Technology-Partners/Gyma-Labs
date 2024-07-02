@@ -34,6 +34,17 @@ tableextension 95002 "Sales Header-GL" extends "Sales Header"
         {
             Caption = 'Order Type';
             DataClassification = ToBeClassified;
+            trigger OnValidate()
+            begin
+                case "Order Type" of
+                    "Order Type"::Commission:
+                        begin
+                            Validate("Location Code", 'COMM');
+                            Validate("Payment Method Code", 'COMM');
+                            Validate("Gen. Bus. Posting Group", 'COMM');
+                        end;
+                end;
+            end;
         }
     }
 }

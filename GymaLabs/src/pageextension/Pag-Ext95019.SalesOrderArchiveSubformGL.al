@@ -11,9 +11,10 @@ pageextension 95019 "Sales Order Archive Subform-GL" extends "Sales Order Archiv
             {
                 ApplicationArea = All;
             }
-            field("Customer Item Ref. No."; rec."Customer Item Ref. No.")
+            field("Customer Item Reference No."; rec."Customer Item Ref. No.")
             {
                 ApplicationArea = All;
+                Visible = false;
             }
             field("Commission %"; rec."Commission %")
             {

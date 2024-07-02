@@ -11,9 +11,10 @@ pageextension 95018 "Posted Sales Shpt. Subform-GL" extends "Posted Sales Shpt. 
             {
                 ApplicationArea = All;
             }
-            field("Customer Item Ref. No."; rec."Customer Item Ref. No.")
+            field("Customer Item Refence No."; rec."Customer Item Ref. No.")
             {
                 ApplicationArea = All;
+                Visible = false;
             }
             field("Commission %"; rec."Commission %")
             {

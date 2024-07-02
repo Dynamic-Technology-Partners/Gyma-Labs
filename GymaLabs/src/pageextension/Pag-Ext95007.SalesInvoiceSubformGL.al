@@ -8,9 +8,10 @@ pageextension 95007 "Sales Invoice Subform-GL" extends "Sales Invoice Subform"
             {
                 ApplicationArea = All;
             }
-            field("Customer Item Ref. No."; rec."Customer Item Ref. No.")
+            field("Customer Item Reference No."; rec."Customer Item Ref. No.")
             {
                 ApplicationArea = All;
+                Visible = false;
             }
             field("Commission %"; rec."Commission %")
             {

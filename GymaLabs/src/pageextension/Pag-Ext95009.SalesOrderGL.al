@@ -28,6 +28,9 @@ pageextension 95009 "Sales Order-GL" extends "Sales Order"
             {
                 ApplicationArea = All;
             }
+        }
+        addafter("Sell-to Customer Name")
+        {
             field("Order Type"; rec."Order Type")
             {
                 ApplicationArea = All;

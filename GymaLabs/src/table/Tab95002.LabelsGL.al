@@ -53,4 +53,10 @@ table 95002 "Labels-GL"
             Clustered = true;
         }
     }
+    fieldgroups
+    {
+        fieldgroup(DropDown; Code, Description, "Description 1", "Description 2", "Description 3", "Description 4", "Description 5")
+        { }
+    }
+
 }
